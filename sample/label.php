@@ -5,8 +5,8 @@ https://github.com/trp-solutions/HealDocument/blob/main/LICENSE
 */
 declare(strict_types=1);
 require_once __DIR__.'/../lib/autoload.php';
-use TRP\ZplConverter\Label;
-use TRP\ZplConverter\Graphic;
+use TRP\ZplKit\Label;
+use TRP\ZplKit\Graphic;
 
 $label = new Label(width: 600, height: 800, top: 0, left: 0, darkness: 16);
 $label->text('Hello world', x: 30, y: 30, width: 540, font_size: 50, align: 'C')

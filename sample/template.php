@@ -5,8 +5,8 @@ https://github.com/trp-solutions/HealDocument/blob/main/LICENSE
 */
 declare(strict_types=1);
 require_once __DIR__.'/../lib/autoload.php';
-use TRP\ZplConverter\Template;
-use TRP\ZplConverter\Printer;
+use TRP\ZplKit\Template;
+use TRP\ZplKit\Printer;
 
 try {
 	$template = new Template([
